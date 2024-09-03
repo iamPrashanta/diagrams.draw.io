@@ -93,7 +93,7 @@
         </mxCell>
         <mxCell id="S72OcCb0FRN6EEn7l_NP-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="477" as="sourcePoint" />
+            <mxPoint x="770" y="780" as="sourcePoint" />
             <mxPoint x="770" y="107" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -160,7 +160,7 @@
         <mxCell id="S72OcCb0FRN6EEn7l_NP-16" value="Seller Settlement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="137.13" y="654" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S72OcCb0FRN6EEn7l_NP-17" value="This API will be used by the partner&lt;div&gt;to settle funds on behalf of seller to seller settlement &lt;br/&gt;account.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-17" value="This API will be used by the partner&lt;div&gt;to settle funds on behalf of seller to seller settlement &lt;br&gt;account. (Only for Manual Settlement)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="139" y="684" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S72OcCb0FRN6EEn7l_NP-18" value="Seller Settlement Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -177,6 +177,57 @@
             <mxPoint x="40" y="780" as="sourcePoint" />
             <mxPoint x="40" y="680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-21" value="This API will be used by partner&lt;div&gt;to identify the status of the seller settlement transaction.&lt;/div&gt;&lt;div&gt;(Only for Manual Settlement)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="146" y="790" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-22" value="Raise Collect Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="547" y="448" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-23" value="This API will be used by partner&lt;div&gt;to raise a UPI collect request towards the payer&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="401.5" y="478" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-24" value="Check Collect Request Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="507" y="548" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-25" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This API will be used by partner&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;to check the status of raised collect request.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="438" y="578" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="460" as="sourcePoint" />
+            <mxPoint x="690" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="560" as="sourcePoint" />
+            <mxPoint x="690" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-28" value="Validate VPA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="648" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-29" value="This API will be used by&lt;div&gt;partner to check if the payer VPA is valid&lt;/div&gt;&lt;div style=&quot;&quot;&gt;before raising collect &lt;br/&gt;request to it.&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="444" y="678" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="660" as="sourcePoint" />
+            <mxPoint x="690" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="783" as="sourcePoint" />
+            <mxPoint x="690" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-32" value="Register UPI Intent&lt;br&gt;&amp;amp;&lt;br&gt;Check Intent Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="562" y="767" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S72OcCb0FRN6EEn7l_NP-33" value="This API will be used by partner to register a UPI intent.&lt;div&gt;&amp;amp; after register partner can check the status of the intent&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="843" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
